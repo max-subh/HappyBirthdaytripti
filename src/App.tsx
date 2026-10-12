@@ -2,6 +2,12 @@ import { useEffect, useState } from 'react';
 import type { MouseEvent } from 'react';
 import confetti from 'canvas-confetti';
 import { Heart, Sparkles, Calendar, MapPin, PartyPopper, Flame, X, Eye, Mail } from 'lucide-react';
+import image1 from '../images/image-1.png';
+import image2 from '../images/image-2.jpg';
+import image3 from '../images/image-3.jpg';
+import image5 from '../images/image-5.jpg';
+import image6 from '../images/image-6.jpg';
+import image7 from '../images/image-7.jpg';
 
 // =========================================================================
 // 💖 1. CUSTOMIZE YOUR DETAILS DIRECTLY HERE
@@ -33,7 +39,7 @@ const MEMORIES = [
     date: "August 24",
     location: "Jamsadpur",
     story: "We promise to always stand by each other, no matter how difficult life gets.",
-    image: "https://github.com/max-subh/HappyBirthdaytripti/blob/main/images/image-1.png",
+    image: image1,
     gradient: "from-amber-200 via-rose-300 to-rose-900"
   },
   {
@@ -42,7 +48,7 @@ const MEMORIES = [
     date: "August 24",
     location: "Jamsadpur",
     story: "We promise that no matter how many miles are between us, our love, trust, and connection will always keep us close.",
-    image: "images/image (2).jpg",
+    image: image2,
     gradient: "from-amber-100 via-stone-300 to-amber-900"
   },
   {
@@ -51,7 +57,7 @@ const MEMORIES = [
     date: "May 10",
     location: "Jamsadpur",
     story: "We promise that no matter how far apart we are, we will always make each other feel loved, valued, and close to our hearts.",
-    image: "images/image (3).jpg",
+    image: image3,
     gradient: "from-slate-800 via-indigo-950 to-slate-900"
   },
   {
@@ -60,7 +66,7 @@ const MEMORIES = [
     date: "October 30",
     location: "Ghatsila",
     story: "We promise to keep choosing each other, even on the days when things aren’t perfect.",
-    image: "images/image (7).jpg",
+    image: image7,
     gradient: "from-indigo-950 via-[#1e1b4b] to-[#0f172a]"
   },
   {
@@ -69,7 +75,7 @@ const MEMORIES = [
     date: "March 09",
     location: "Ranchi",
     story: "We promise to create countless beautiful memories together and grow old while still loving each other like we do today.",
-    image: "images/image (5).jpg",
+    image: image5,
     gradient: "from-rose-200 via-pink-300 to-indigo-900"
   },
   {
@@ -78,7 +84,7 @@ const MEMORIES = [
     date: "December 06",
     location: "Ghatsila",
     story: "We promise to celebrate each other’s happiness and support each other through every struggle.",
-    image: "images/image (6).jpg",
+    image: image6,
     gradient: "from-sky-200 via-amber-200 to-amber-400"
   }
 ];
