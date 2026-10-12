@@ -1,0 +1,6 @@
+{
+  "name": "Happy birthday Tripti",
+  "description": "A romantic scrolling photo album and celebration website featuring our best memories together, heartfelt birthday letter, personalized love notes, and surprise countdown.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
