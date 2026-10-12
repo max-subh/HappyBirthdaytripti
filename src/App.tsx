@@ -33,7 +33,7 @@ const MEMORIES = [
     date: "August 24",
     location: "Jamsadpur",
     story: "We promise to always stand by each other, no matter how difficult life gets.",
-    image: ".images/image (1).png",
+    image: "images/image (1).png",
     gradient: "from-amber-200 via-rose-300 to-rose-900"
   },
   {
