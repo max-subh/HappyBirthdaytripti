@@ -30,7 +30,6 @@ A React birthday page with a countdown, a personal letter, a photo album, and co
    ```powershell
    bun run dev
    ```
-4
 3. Open **http://localhost:3000** in your browser.
 4. To stop the server, focus the terminal and press **Ctrl+C**.
 
